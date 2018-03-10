@@ -1,0 +1,150 @@
+<head>
+<title>CSS DEMO PAGE</title>
+<style type="text/css">
+body
+{
+    background-image:url('./IMAGE/3.jpg');
+    
+}
+hr
+{
+    background-color:black;
+    height: 5px;
+    
+}
+div
+{
+    height: 150px;
+    border: 2px solid red;
+    width: 60%;
+    margin: auto;
+    margin-top: 20px;
+    background-color: green;
+    font-size: 20px;
+    font-family:Arial;
+    text-transform: capitalize;
+    color: white;
+    padding-left: 50px;
+    padding-top: 50px;
+    border-radius: 100px 150px 200px 250px;
+    
+}
+#div1{
+    height: 100px;
+    border: 2px solid red;
+    background-color: black;
+}
+#div2{
+    height: 100px;
+    border: 2px solid green;
+    background-color: red;
+}
+
+.division
+{
+    height: 120px;
+    border: 2px solid aqua;
+    background-color: purple;
+}
+
+ul
+{
+    list-style: none;
+    background-color: black;
+    height: 30px;
+    padding-top: 5px;
+    border-radius: 15px;
+    }
+ul>li
+{
+    display: inline-block;
+    width: 15px;
+    text-align: center;
+}
+ul a:hover
+{
+    color: white;
+    text-decoration: underline;
+}
+h3~p
+{
+    color: green;
+}
+h3+p
+{
+    color: red;
+} 
+.table
+{
+    width: 70%;
+    margin: auto;
+    border: 1px solid;
+    border-collapse: collapse;
+}
+.table td
+{
+   text-align: center;
+   border: 1px solid;
+   border-collapse: collapse; 
+}
+.table tr:nth-child(even)
+{
+    background-color: pink;
+    color: white;
+}
+.table tr:nth-child(odd)
+{
+    background-color: aqua;
+    color: white;
+}
+table tr:first-child
+{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+}
+</style>
+</head>
+
+<body>
+
+<h2 style="text-align:center;color:green;text-transform:uppercase;">WORKING WITH CSS AND HTML</h2>
+
+<hr />
+<ul>
+<li><a href="#">HOME</a></li>
+<li><a href="#">ABOUT US</a></li>
+<li><a href="#">CONTACT US</a></li>
+<li><a href="#">FAQ</a></li>
+<li><a href="#">QUERY</a></li>
+</ul>
+<br />
+
+<table class="table">
+<tr><td>ID</td><td>NAME</td><td>SALARY</td></tr> 
+<tr><td>1001</td><td>Nidhi</td><td>25000</td></tr> 
+<tr><td>1002</td><td>Nimmi</td><td>65000</td></tr> 
+<tr><td>1003</td><td>Neha</td><td>45823</td></tr> 
+<tr><td>1004</td><td>Nitin</td><td>45632</td></tr> 
+<tr><td>1005</td><td>Natwar</td><td>45687</td></tr> 
+
+<table>
+
+<h3>This is a heading</h3>
+
+<p>This is a paragraph</p>
+<p>This is a paragraph</p>
+<p>This is a paragraph</p>
+<h3>This is a heading</h3>
+<p>This is a paragraph</p>
+<p>This is a paragraph</p>
+<p>This is a paragraph</p>
+
+
+<div id="div1" class="division">Contest Goes Here Para1</div>
+<div id="div2" class="division">Contest Goes Here Para2</div>
+<div id="div3">Contest Goes Here Para3</div>
+<h3>This is a Heading</h3>
+<p>This  is a Paragrapg</p>
+
+</body>
